@@ -39,5 +39,6 @@ def test_start_new_game():
     """ Új játékot tudunk indítani
         az init gomb megnyomásával a felület visszatér a kiindulási értékekhez
         új bingo szelvényt kapunk más számokkal. """
+    init_btn.click()
 
     driver.quit()
